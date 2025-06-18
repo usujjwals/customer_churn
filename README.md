@@ -2,7 +2,7 @@
 
 ## 🚀 Overview  
 An end-to-end machine-learning pipeline to predict customer churn for a telecom provider.  
-Key steps: data loading & validation, exploratory analysis (including skew inspection), PCA for dimensionality reduction, and comparison of three classifiers—ultimately selecting an SVM with RBF kernel for the best cross-validated accuracy.
+Key steps: data loading & validation, exploratory analysis (including skew inspection), PCA for dimensionality reduction, and comparison of three classifiers—ultimately selecting an SVM with RBF kernel for the best cross-validated accuracy. Also, saving the models using joblib to use them again.
 
 ## 📦 Dataset  
 - **Source**: [Kaggle Telecom Churn Dataset by barun2104](https://www.kaggle.com/datasets/barun2104/telecom-churn/data)  
