@@ -40,7 +40,7 @@ Wrapped each classifier in the same preprocessing pipeline and ran **5-fold stra
 | Model                     | CV Accuracy (mean ± std) |
 |---------------------------|--------------------------|
 | Logistic Regression       | 0.860 ± 0.005            |
-| Random Forest (100 trees) | 0.913 ± 0.005            |
-| **SVM (RBF kernel)**      | **0.917 ± 0.003**        |
+| Random Forest (100 trees) | **0.915 ± 0.004**            |
+| **SVM (RBF kernel)**      | **0.915 ± 0.006**        |
 
-> **Winner:** The SVM achieved the highest average accuracy with the tightest variance.
+> **Winner:** The SVM & Random Forest achieved the highest average accuracy with almost similar variance.
